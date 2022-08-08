@@ -6,18 +6,18 @@
  const mysql = require("mysql2");
  const cors = require("cors");
 
- const db = mysql.createpool({
+ const db = mysql.createPool({
     host : "mysql-reactapp00.alwaysdata.net",
     user: "277707_db",
     password: "Dclic_2022",
     database: "reactapp00_db",
-    port : 80
+   
  });
  
- db.connect(function(err) {
-    if (err) throw err;
-    console.log("Connecté à la base de données MySQL!");
-  });
+//  db.connect(function(err) {
+//     if (err) throw err;
+//     console.log("Connecté à la base de données MySQL!");
+//   });
  
  app.use(cors());
  app.use(express.json());
@@ -26,8 +26,8 @@
  // get requette
 
  app.get("/api/get", (req, res) =>{
-    const sqlget = "SELECT * FROM joueur_info";
-    db.query(sqlget,(error, result) => {
+    const Get = "SELECT * FROM joueur_info";
+    db.query(Get,(error, result) => {
         res.send("Hello Express" );
     });
  } );

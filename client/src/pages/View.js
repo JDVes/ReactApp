@@ -39,7 +39,7 @@ const View = () => {
                     <br />
 
                     <strong>club:</strong>
-                    <span>{user.club_player}</span>
+                    <span>{user.club}</span>
                     <br />
                     <br />
 
