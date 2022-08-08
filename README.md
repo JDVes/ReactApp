@@ -77,6 +77,8 @@ Always Data Deployment
 
 Deployment Database Links : mysql-reactapp00.alwaysdata.net
 
+https://phpmyadmin.alwaysdata.com/phpmyadmin/index.php?route=/table/structure&db=reactapp00_db&table=joueur_info
+
 Github Project repositorie
 
 
