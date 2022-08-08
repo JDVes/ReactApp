@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Heroku Deployment
+
+Deployment Server  Link: https://git.heroku.com/react-ftf.git
+
+Always Data Deployment
+
+Deployment Database Links : mysql-reactapp00.alwaysdata.net
+
+https://phpmyadmin.alwaysdata.com/phpmyadmin/index.php?route=/table/structure&db=reactapp00_db&table=joueur_info
+
+Github Project repositorie
+
+https://github.com/JDVes/ReactApp.git
+
+
+
