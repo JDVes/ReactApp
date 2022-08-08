@@ -85,5 +85,7 @@ https://github.com/JDVes/ReactApp.git
 
 Deployment client links : 
 
+front-ftf.netlify.app
+
 
 
